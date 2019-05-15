@@ -1,0 +1,187 @@
+body{
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+    /* Navigation Bar */
+    nav{
+        width: 95%;
+        height: 100px;
+        float: right;
+        margin-right: 0px;
+    }
+
+    .navbar-brand{
+        font-size: 7rem;
+        margin-bottom: 20px;
+    }
+
+    .collapse.navbar-collapse{
+        margin-right: 120px;
+    }
+
+    .fa-search, .fa-heart{
+        font-size: 2em;
+        color: black;
+    }
+
+    .fa-search, .fa-heart{
+        font-size: 2em;
+        color: black;
+    }
+
+    .nav-link-1{
+        color: black;
+        padding: 5px 8px;
+        margin: 0px 5px;
+        font: outline;
+    }
+
+    .nav-link-1:hover{
+        text-decoration: none;
+        background-image: linear-gradient(white 50%, yellow 50%);
+        color: black;
+    }
+
+    #font{
+        font-size: 13px ;
+    }
+
+    /* Notification */
+        .fa-shopping-bag {
+            position: relative;
+            font-size: 2em;
+            color: black;
+            cursor: pointer;
+        }
+        .fa-comment {
+            position: absolute;
+            font-size: 1.2em;
+            top: 34px;
+            color: rgb(238, 238, 37);
+            right: 140px;
+        }
+        .num {
+            position: absolute;
+            font-size: 0.8em;
+            top: 33px;
+            color: black;
+            right: 145px;
+        }
+
+    /* Breadcrumb */
+    .fa-caret-right{
+        color: rgb(238, 238, 37);
+        font-size: 1.2rem;
+        padding: 0px 20px;
+    }
+
+    .fa-home{
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    #breadcrumb{
+        padding: 0;
+        margin-left: 58px;
+    }
+
+    /* Style the list */
+    ul#breadcrumb {
+        padding: 10px 15px;
+        list-style: none;
+    }
+
+    /* Display list items side by side */
+    ul#breadcrumb li {
+        display: inline;
+        font-size: 13px;
+    }
+
+    /* Add a slash symbol (/) before/behind each list item */
+    ul#breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+    }
+
+    /* Add a color to all links inside the list */
+    ul#breadcrumb li a {
+        color: #b3b3b3;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    /* Add a color on mouse-over */
+    ul#breadcrumb li a:hover {
+        color: #01447e;
+    }
+
+/* sidenav */
+    .active a{
+        background-image: linear-gradient(white 50%, yellow 50%);
+    }
+
+    .sidenav a{
+        width: 200px;
+        padding-right: 0%;
+        padding-left: 180px;
+    }
+
+    .sidenav{
+        margin-top: 80px;
+        left: 0px;
+        top: 0px;
+        position: sticky;
+        height: 100%;
+        overflow: auto;
+    }
+
+    .sidenav ul{
+        list-style: none;
+        font-size: 13px;
+        text-align: right;
+    }
+
+    .sidenav ul li{
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .sidenav a{
+        color: black;
+    }
+
+    .sidenav a:hover{
+        text-decoration: none;
+    }
+
+    .nav-link-2{
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 0px;
+        margin: 0px 5px;
+        font: outline;
+    }
+
+    #icons{
+        padding-top: 40px;
+        overflow: hidden;
+    }
+
+    #icons a{
+        font-size: 1.5em;
+        text-align: left !important;
+        padding: 14px 16px ;
+    }
+
+    #details, #description, #reviews, #related{
+        padding: 2%;
+    }

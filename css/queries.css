@@ -1,0 +1,39 @@
+@media (max-width: 910px){
+    #unique{
+        display: none;  
+    }
+
+    a.navbar-brand{
+        font-size: 5em;
+    }
+
+    .sidenav{
+        display: none;
+    }
+
+    .collapse.navbar-collapse{
+        margin-right: 0px;
+    }
+
+    .fa-comment {
+        position: absolute;
+        font-size: 1.2em;
+        top: 50px;
+        color: rgb(238, 238, 37);
+        right: 20px;
+    }
+    .num {
+        position: absolute;
+        font-size: 0.8em;
+        top: 49px;
+        color: black;
+        right: 25px;
+    }
+
+    #navbarSupportedContent li{
+        border-bottom: 1px solid #f1f1f1;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
