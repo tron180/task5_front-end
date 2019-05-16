@@ -40,4 +40,37 @@
     #breadcrumbs{
         display: none;
     }
+
+    .sidedetails{
+        display: none;
+    }
+
+    .detailscontent{
+        padding-top: 10%;
+    }
+
+    .square img{
+        top: 0;
+    }
+}
+
+@media (max-width:992px){
+    .sidenav{
+        display: none;
+    }
+
+    #breadcrumbs{
+        display: none;
+    }
+
+    .sidedetails{
+        display: none;
+    }
+
+    #unique{
+        display: none;
+    }
+
+    #afternav{
+    }
 }

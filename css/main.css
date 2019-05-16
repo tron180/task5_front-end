@@ -25,7 +25,7 @@ body{
         margin-right: 120px;
     }
 
-    .fa-search, .fa-heart{
+    .fa-search, #fa-heart{
         font-size: 2em;
         color: black;
     }
@@ -44,11 +44,7 @@ body{
 
     .nav-link-1:hover{
         text-decoration: none;
-<<<<<<< HEAD
-        background-image: linear-gradient(white 50%, yellow 50%);
-=======
         background-image: linear-gradient(#f1f1f1 50%, yellow 50%);
->>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
         color: black;
     }
 
@@ -127,11 +123,7 @@ body{
 
 /* sidenav */
     .active a{
-<<<<<<< HEAD
-        background-image: linear-gradient(white 50%, yellow 50%);
-=======
         background-image: linear-gradient(#f1f1f1 50%, yellow 50%);
->>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
 
     .sidenav a{
@@ -141,22 +133,11 @@ body{
     }
 
     .sidenav{
-<<<<<<< HEAD
-        margin-top: 80px;
-        left: 0px;
-        top: 0px;
-        position: sticky;
-        height: 100%;
-        overflow: auto;
-=======
         margin-top: 5%;
-        left: 0px;
-        top: 25%;
+        top: 38%;
         position: sticky;
         height: 100%;
         overflow: auto;
-        padding: 0px;
->>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
 
     .sidenav ul{
@@ -170,10 +151,7 @@ body{
         padding-top: 30px;
         padding-bottom: 30px;
         margin-right: 0px;
-<<<<<<< HEAD
-=======
         text-align: right;
->>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
 
     .sidenav a{
@@ -204,15 +182,107 @@ body{
         padding: 14px 16px ;
     }
 
-    #details, #description, #reviews, #related{
-        padding: 2%;
-<<<<<<< HEAD
-=======
+    #description, #reviews, #related{
+        padding: 15%;
     }
 
 /* sidetext */
-    .sidedetails{
+    .sidedetails h1{
         color: white;
-        font-size: 50px;
->>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
+        font-size: 8rem;
+        letter-spacing: 10px;
+        font-weight: 1000;
+        top: 50%;
+        left: -120px;
+        position: fixed;
+        transform: rotate(-90deg);
+    }
+
+/* details section  */
+    .square {
+        position: relative;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    .square:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+    
+    
+    .square img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: -10%;
+    }
+
+    .detailscontent{
+        padding-top: 5%;
+    }
+
+    .detailscontent h3{
+        font-weight: bolder;
+        color: black;
+    }
+
+    .colo{
+        color: rgb(235, 206, 43);
+    }
+
+    .through{
+        text-decoration: line-through;
+        color: #ccc;
+    }
+
+    .detailscontent p{
+        font-weight: 700;
+    }
+
+    .icons{
+        width: 40px;
+        height: 40px;
+        background-color: #ccc;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        font-size: 1.5rem;
+        padding-top: 3px;
+    }
+
+    .deco{
+        list-style-type: none;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+    
+
+    .detailscontent .fas, .far{
+        padding: 0 1px;
+        font-size: 1.5rem;
+    }
+
+    .detailscontent .nav li{
+        padding: 0 10px;
+    }
+
+    .detailscontent .nav{
+        background-color: #f2f2f2;
+        height: 40px;
+        justify-content: center;
+    }
+
+    .detailscontent .nav li{
+        padding-top: 10px;
+    }
+
+    .cart{
+        background-color: rgb(245, 217, 60);
+        padding-top: 0%;
+        color: white;
     }

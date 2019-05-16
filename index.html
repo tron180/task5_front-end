@@ -20,13 +20,13 @@
     <div class="container-fluid">
 
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light " id="font">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " id="font">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#">&infin;</a>
 
-            <ul class="nav d-sm-none mb-2" id="navbaritems">
+            <ul class="nav d-lg-none mb-2" id="navbaritems">
                 <li class="nav-item">
                     <a class="nav-link-1" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </li>
@@ -39,6 +39,21 @@
                         <span class="fa fa-comment"></span>
                         <span class="num">2</span>
                     </a>
+                </li>
+            </ul>
+
+            <ul class="nav d-lg-none" id="afternav">
+                <li>
+                    <a href="#details" class="nav-link-2">DETAILS</a>
+                </li>
+                <li>
+                    <a href="#description" class="nav-link-2">DESCRIPTION</a>
+                </li>
+                <li>
+                    <a href="#reviews" class="nav-link-2">REVIEWS</a>
+                </li>
+                <li>
+                    <a href="#related" class="nav-link-2">RELATED</a>
                 </li>
             </ul>
 
@@ -67,7 +82,7 @@
                                 <a class="nav-link-1" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link-1" href="#"><i class="far fa-heart" aria-hidden="true"></i></a>
+                                <a class="nav-link-1" href="#"><i class="far fa-heart" id="fa-heart" aria-hidden="true"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link-1" href="#">
@@ -91,13 +106,15 @@
                 <li style="font-weight: bold;">BEIGE NUDIE SOFA</li>
             </ul>
         </div>
+    </div>
 
-        <!-- Section :- ScrollSpy -->
+    <!-- Section :- ScrollSpy -->
+    <div class="container-fluid">
         <nav id="nav" class="navbar-template">
             <div class="row">
                 <div class="col-lg-3 sidenav">
                     <ul>
-                        <li class="active">
+                        <li>
                             <a href="#details" class="nav-link-2">DETAILS</a>
                         </li>
                         <li>
@@ -116,10 +133,60 @@
                         </div>
                     </ul>
                 </div>
-
-                <div class="col-lg-8 col-md-12 col-sm-12 main">
-                    <section class="scrollspy" id="details">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum molestiae veniam, voluptas quia laboriosam id placeat, repellendus tempore maxime, culpa aspernatur enim dicta totam suscipit beatae similique numquam. Animi officia enim qui voluptatum asperiores deserunt cumque doloribus neque cupiditate facilis, sit, beatae fuga, illo molestiae dolore iure omnis nam velit et iste natus laudantium autem sint? Reiciendis perferendis natus, quod ad voluptate illum quisquam harum hic ea maxime dolorum recusandae beatae porro voluptas quo minus aperiam debitis sequi similique laudantium eligendi quis iusto maiores. Quos nostrum aperiam sequi eligendi aliquid facere quod maiores, repellendus dolore illum adipisci dolor voluptate nulla doloribus perferendis accusantium ducimus quia! Delectus quo culpa provident, dicta temporibus consectetur perferendis perspiciatis cum necessitatibus, doloribus inventore soluta voluptatum natus laborum nobis hic aliquid sequi ab sint. Voluptatum labore dicta accusamus rerum nostrum suscipit eum vitae architecto ipsum laudantium! Excepturi tempora fuga fugit veritatis ratione voluptas aut, at veniam architecto laudantium dignissimos quia inventore amet molestias. Cupiditate impedit rerum error sunt officia autem odit enim unde sapiente dolorem corrupti ipsa necessitatibus commodi esse debitis, architecto dolorum quas beatae, explicabo odio. Quis consequatur corporis fuga distinctio repellendus, repellat animi porro rerum amet ex laboriosam reprehenderit sit ut doloribus quisquam sint fugiat quos, eos deserunt vitae! Facilis excepturi hic architecto? Enim vero, repellendus inventore ipsam dolores perspiciatis doloremque harum, voluptatum expedita ut velit. Aliquid, dignissimos. Laborum harum sequi veritatis at voluptates qui earum excepturi, quae quod consectetur aperiam laboriosam in minus deleniti fugit odit assumenda inventore aliquid maxime incidunt. Voluptatum recusandae voluptatem hic non nostrum dolor in odio qui voluptates voluptas voluptate quod eos, odit vero quis iusto eius sint quidem dignissimos! Molestiae necessitatibus atque vel consequatur vitae ut inventore magnam quidem corrupti debitis sit exercitationem veritatis, facilis, beatae iste voluptate repellat quibusdam! Cumque sapiente est provident at, sequi placeat quam?
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <section id="details">
+                        <div class="container bg-white main">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-6 col-sm-12 py-4">
+                                    <div class="square">
+                                        <img src="img/sofa.jpg" class="" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-6 detailscontent">
+                                    <h3>Nudie Extendable</h3>
+                                    <h3>Sofa for 3 persons.</h3>
+                                    <i class="fas fa-star colo"></i><i class="fas fa-star colo"></i><i class="fas fa-star colo"></i><i class="fas fa-star colo"></i><i class="far fa-star"></i> &nbsp; (23)
+                                    <br><br>
+                                    <p><span class="through">$169 </span> &nbsp;&nbsp; $149</p>
+                                    <hr>
+                                    <ul>
+                                        <li id="font"><b>ASSEMBLY :</b> Carpenter Assembly</li>
+                                        <li id="font"><b>WARRANTY :</b> 12 Months Warranty</li>
+                                    </ul>
+                                    <hr>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="icons"><i class="fas fa-car"></i></div>
+                                                <ul class="deco">
+                                                    <li id="font">SAME DAY</li>
+                                                    <li id="font">DISPATCH</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="icons"><i class="fas fa-recycle"></i></div>
+                                                <ul class="deco">
+                                                    <li id="font">EASY 30-DAY</li>
+                                                    <li id="font">RETURN POLICY</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <p id="font"><b>COLOR:</b></p>
+                                    <i class="fas fa-circle" style="color: #7969055d;"></i><i class="fas fa-check-circle"></i><i class="far fa-circle"></i>
+                                    <nav class="navbar">
+                                        <ul class="nav">
+                                            <li>-</li>
+                                            <li>1</li>
+                                            <li>+</li>
+                                            <li class="cart">ADD TO CART</li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
                     <section class="scrollspy" id="description">
@@ -138,7 +205,7 @@
         </nav>
 
         <div class="sidedetails">
-            <h1>DETAILS</h1>
+            <h1>Details</h1>
         </div>
 
     </div>
