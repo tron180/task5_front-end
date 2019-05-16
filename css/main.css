@@ -44,7 +44,11 @@ body{
 
     .nav-link-1:hover{
         text-decoration: none;
+<<<<<<< HEAD
         background-image: linear-gradient(white 50%, yellow 50%);
+=======
+        background-image: linear-gradient(#f1f1f1 50%, yellow 50%);
+>>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
         color: black;
     }
 
@@ -123,7 +127,11 @@ body{
 
 /* sidenav */
     .active a{
+<<<<<<< HEAD
         background-image: linear-gradient(white 50%, yellow 50%);
+=======
+        background-image: linear-gradient(#f1f1f1 50%, yellow 50%);
+>>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
 
     .sidenav a{
@@ -133,12 +141,22 @@ body{
     }
 
     .sidenav{
+<<<<<<< HEAD
         margin-top: 80px;
         left: 0px;
         top: 0px;
         position: sticky;
         height: 100%;
         overflow: auto;
+=======
+        margin-top: 5%;
+        left: 0px;
+        top: 25%;
+        position: sticky;
+        height: 100%;
+        overflow: auto;
+        padding: 0px;
+>>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
 
     .sidenav ul{
@@ -152,6 +170,10 @@ body{
         padding-top: 30px;
         padding-bottom: 30px;
         margin-right: 0px;
+<<<<<<< HEAD
+=======
+        text-align: right;
+>>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
 
     .sidenav a{
@@ -184,4 +206,13 @@ body{
 
     #details, #description, #reviews, #related{
         padding: 2%;
+<<<<<<< HEAD
+=======
+    }
+
+/* sidetext */
+    .sidedetails{
+        color: white;
+        font-size: 50px;
+>>>>>>> 3ecd39d621b0bae5c2755a0ab3d7fc545928ac91
     }
